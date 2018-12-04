@@ -121,8 +121,8 @@ repositories:
     version: master
   ros2/rcl:
     type: git
-    url: https://github.com/ros2/rcl.git
-    version: master
+    url: https://github.com/yyu/rcl.git
+    version: rosout
   ros2/rcl_interfaces:
     type: git
     url: https://github.com/ros2/rcl_interfaces.git
@@ -131,18 +131,22 @@ repositories:
 #    type: git
 #    url: https://github.com/ros2/rclc.git
 #    version: master
+  ros2/rc_logging_log4cxx:
+    type: git
+    url: https://github.com/yyu/rc_logging_log4cxx.git
+    version: master
   ros2/rclcpp:
     type: git
-    url: https://github.com/ros2/rclcpp.git
-    version: master
+    url: https://github.com/yyu/rclcpp.git
+    version: logging
   ros2/rclpy:
     type: git
     url: https://github.com/ros2/rclpy.git
     version: master
   ros2/rcutils:
     type: git
-    url: https://github.com/ros2/rcutils.git
-    version: master
+    url: https://github.com/yyu/rcutils.git
+    version: rosout
   ros2/realtime_support:
     type: git
     url: https://github.com/ros2/realtime_support.git
